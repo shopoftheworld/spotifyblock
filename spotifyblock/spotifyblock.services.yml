@@ -1,0 +1,4 @@
+services:
+  spotifyblock.fetchdata:
+    class: Drupal\spotifyblock\FetchDataService
+    arguments: []

@@ -1,0 +1,10 @@
+view spotifyblock:
+  title: 'View Spotify Block'
+  description: 'Users with this permission can see the spotify Artist block'
+access spotifyblock artist:
+  title: 'Access spotify Artist Page'
+  description: 'Users with this permission can View the full page of a spotify Artist'
+administer spotify block:
+  title: 'Administer the spotifyblock settings'
+  description: 'Users with this permission can administer spotify block settings'  
+  restrict access: true

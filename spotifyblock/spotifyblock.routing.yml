@@ -1,0 +1,23 @@
+spotifyblock.admin_settings:
+  path: '/admin/config/content/spotifyblock'
+  defaults:
+    _form: '\Drupal\spotifyblock\Form\SpotifyblockSettingsForm'
+    _title: 'Spotify Block Settings'
+  requirements:
+    _permission: 'Administer the spotifyblock settings'
+
+spotifyblock.artist:
+  path: '/artist/{artistid}'
+  defaults:
+    _controller: '\Drupal\spotifyblock\Controller\SpotifyblockController::showArtist'
+    _title: 'Spotify Block show artist'
+  title: 'Artist Information'
+  description: 'Shows details for individual artist'
+  route_name: spotifyblock.artist
+  weight: 0
+  options:
+    parameters:
+      artistid:
+        type: artistid
+  requirements:
+    _permission: 'Access spotify Artist Page'

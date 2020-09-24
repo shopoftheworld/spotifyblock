@@ -1,0 +1,7 @@
+name: Spotify Block
+description: Allows users to view a list of artists on spotify - Admins can view details about an artist
+package: Spotify
+type: module
+version: 1.0
+core: 8.x
+configure: spotifyblock.admin_settings
