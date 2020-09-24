@@ -1,6 +1,6 @@
 # spotifyblock
 
-To install place the spotifyblock folder in your /modules/custom/directory for your site
+To install place the spotifyblock folder in your /modules/custom/ directory for your site
 Enable through the admin 'Spotify Block'
 
 or
